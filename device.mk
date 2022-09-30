@@ -143,6 +143,9 @@ ifneq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
 endif
 
+# Device Settings (Mi Parts)
+$(call inherit-product-if-exists, vendor/xiaomi/devicesettings/config.mk)
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.4-impl \
