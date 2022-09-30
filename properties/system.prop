@@ -28,6 +28,9 @@ persist.vendor.cne.feature=1
 # DPM
 persist.vendor.dpm.feature=1
 
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
+
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1
 
