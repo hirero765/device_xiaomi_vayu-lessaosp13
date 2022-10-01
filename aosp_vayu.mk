@@ -29,6 +29,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Device maintainer
 LESSAOSP_MAINTAINER := kickout_765
+LESSAOSP_BUILD_TYPE := official
 
 # extra shit
 $(call inherit-product, vendor/Gcam/config.mk)
