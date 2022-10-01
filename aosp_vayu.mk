@@ -32,4 +32,5 @@ LESSAOSP_MAINTAINER := kickout_765
 LESSAOSP_BUILD_TYPE := official
 
 # extra shit
-$(call inherit-product, vendor/Gcam/config.mk)
+$(call inherit-product-if-exists, vendor/Gcam/config.mk)
+$(call inherit-product-if-exists, vendor/gms/gms_full.mk)
