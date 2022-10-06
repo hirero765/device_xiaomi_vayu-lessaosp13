@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2021 ArrowOS
+# Copyright (C) 2021-2022 LOSP
 #
 # SPDX-License-Identifier: Apache-2.0
 #
